@@ -110,9 +110,9 @@ h2 {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
   position: relative;
+  display: inline-block;
+  width: 160px;
 }
 
 .two {
@@ -139,4 +139,18 @@ span.highlight {
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
+}
+
+.static_image_container {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.static_image {
+  height: 100%;
+  width: auto;
 }
